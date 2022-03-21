@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2b1331;
+background-image: linear-gradient(180deg, #2b1331 0%, #b9abcf 74%);
+padding-bottom: 120px;
+}
+.star{
+    width: 30px;
+    height: 30px;
+    background-color: #7b767e;
+    border-radius: 50%;
+    margin-left: 10px !important;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.tarjeta{
+    background-color: #302a35;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 120px auto 0px auto;
+    padding: 10px;
+}
+.tarjeta h1{
+    margin: 30px 0px 0px 10px;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+}
+.tarjeta p{
+    margin: 15px 0px 0px 10px;
+    color: #ffffff;
+    font-family: 'Amiri', serif;
+}
+.selec{
+    margin: 15px 0px 0px 10px;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.selec button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #7b767e;
+    color: #ffffff;
+    border: none;
+}
+.selec button:hover{
+    background-color: #5F00A8;
+}
+.selec button:focus{
+    background-color: #b07dd8;
+    border: none;
+}
+#boton{
+    margin: 20px 0px 0px 10px;
+    width: 90%;
+    height: 40px;
+    background-color: #5F00A8;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+}
+#boton:hover{
+    background-color: #ffffff;
+    color: #5F00A8;
+    border:#5F00A8 solid 2px;
+}
+.tarjeta2{
+    background-color: #302a35;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 120px auto 0px auto;
+    padding: 10px;
+}
+.displayCard{
+    display: none;
+}
+.result{
+    background-color: #7b767e;
+    width: 300px;
+    height: 30px;
+    color: #5F00A8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Amiri', serif;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.tarjeta2 h1{
+    margin: 30px 0px 0px 10px;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.tarjeta2 p{
+    margin: 15px 0px 0px 30px;
+    color: #ffffff;
+    font-family: 'Amiri', serif;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+.disabled2{
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
