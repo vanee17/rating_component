@@ -121,5 +121,6 @@ body{
 @media (min-width: 360px) and (max-width: 640px) {
     .tarjeta{
         width: 310px;
+        height: 370px;
     }
 }
