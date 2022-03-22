@@ -22,7 +22,7 @@ body{
     width: 370px;
     height: 370px;
     border-radius: 20px;
-    margin: 100px auto 0px auto;
+    margin: 150px auto 0px auto;
     padding: 10px;
 }
 .tarjeta h1{
@@ -74,10 +74,10 @@ body{
 }
 .tarjeta2{
     background-color: #302a35;
-    width: 350px;
-    height: 350px;
+    width: 370px;
+    height: 370px;
     border-radius: 20px;
-    margin: 120px auto 0px auto;
+    margin: 150px auto 0px auto;
     padding: 10px;
 }
 .displayCard{
